@@ -7,7 +7,7 @@ const getButtonActive = () => {
 }
 
 const getServerResponse = () => {
-  fetch("http://www.boredapi.com/api/activity/")
+  fetch("https://www.boredapi.com/api/activity/")
     .then (activity => activity.json())
     .then ((res) => {
       const text = res.activity;
